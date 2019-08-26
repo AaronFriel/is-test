@@ -1,0 +1,16 @@
+{
+  "name": "is-test",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./build/src/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.2",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "@sindresorhus/is": "^1.0.0"
+  }
+}
